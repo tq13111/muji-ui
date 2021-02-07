@@ -1,11 +1,11 @@
 <template>
   <div class="topNav">
-    <div @click="toggleAside" class="logo">LOGO</div>
+    <span @click="toggleAside"></span>
+    <div class="logo">LOGO</div>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
-
   </div>
 </template>
 <script lang="ts">
@@ -42,6 +42,31 @@
 
       > li {
         margin: 0 1em;
+      }
+    }
+
+    > span {
+      display: none;
+    }
+
+    @media(max-width: 500px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      > .logo {
+        margin: 0 auto;
+      }
+
+      > .menu {
+        display: none;
+      }
+
+      > span {
+        display: inline-block;
+        background: blue;
+        width: 20px;
+        height: 20px;
       }
     }
   }

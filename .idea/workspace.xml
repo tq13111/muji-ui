@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成 Home、Doc 页面 html、css">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="使用 provide、inject 实现切换侧边栏">
+      <change afterPath="$PROJECT_DIR$/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,7 +67,7 @@
       <updated>1612670772308</updated>
       <workItem from="1612670773482" duration="8111000" />
       <workItem from="1612680624213" duration="6562000" />
-      <workItem from="1612698727308" duration="2872000" />
+      <workItem from="1612698727308" duration="5456000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612687056602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="使用 provide、inject 实现切换侧边栏">
+      <created>1612701867212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612701867212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +127,8 @@
     <MESSAGE value="init vue-router" />
     <MESSAGE value="封装 TopNav 组件" />
     <MESSAGE value="完成 Home、Doc 页面 html、css" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Home、Doc 页面 html、css" />
+    <MESSAGE value="使用 provide、inject 实现切换侧边栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 provide、inject 实现切换侧边栏" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

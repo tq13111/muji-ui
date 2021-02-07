@@ -1957,6 +1957,11 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+svg-loader@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/svg-loader/download/svg-loader-0.0.2.tgz#601ab2fdaa1dadae3ca9975b550de92a07e1d92b"
+  integrity sha1-YBqy/aodra48qZdbVQ3pKgfh2Ss=
+
 terser@^5.0.0:
   version "5.5.1"
   resolved "https://registry.npm.taobao.org/terser/download/terser-5.5.1.tgz#540caa25139d6f496fdea056e414284886fb2289"
