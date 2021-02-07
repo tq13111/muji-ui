@@ -6,7 +6,7 @@
       <h2>一个炫酷的 UI 框架</h2>
       <p class="actions">
         <a href="">GtiHub</a>
-        <router-link to="" href="">开始</router-link>
+        <router-link to="/doc" href="">开始</router-link>
       </p>
     </div>
   </div>
@@ -14,9 +14,8 @@
 
 <script lang="ts">
   import TopNav from '../components/TopNav.vue';
-
   export default {
-    components: {TopNav}
+    components:{TopNav}
   };
 </script>
 
