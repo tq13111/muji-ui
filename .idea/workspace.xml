@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完善侧边栏切换逻辑">
-      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成 Doc 页面 css">
+      <change afterPath="$PROJECT_DIR$/src/components/DocDefault.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +68,7 @@
       <updated>1612670772308</updated>
       <workItem from="1612670773482" duration="8111000" />
       <workItem from="1612680624213" duration="6562000" />
-      <workItem from="1612698727308" duration="8072000" />
+      <workItem from="1612698727308" duration="11256000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -114,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612704282002</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="切换路由时关闭侧边栏">
+      <created>1612707045409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612707045409</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成 Doc 页面 css">
+      <created>1612709286689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612709286689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +151,9 @@
     <MESSAGE value="完成 Home、Doc 页面 html、css" />
     <MESSAGE value="使用 provide、inject 实现切换侧边栏" />
     <MESSAGE value="完善侧边栏切换逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善侧边栏切换逻辑" />
+    <MESSAGE value="切换路由时关闭侧边栏" />
+    <MESSAGE value="完成 Doc 页面 css" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Doc 页面 css" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
