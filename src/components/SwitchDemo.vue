@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Switch v-model:checked="checked"/>
+    <Switch v-model:checked="bool"/>
   </div>
 </template>
 <script lang="ts">
@@ -10,8 +10,8 @@
   export default {
     components: {Switch},
     setup() {
-      const checked = ref(false);
-      return {checked};
+      const bool = ref(false);
+      return {bool};
     }
   };
 </script>

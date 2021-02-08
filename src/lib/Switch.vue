@@ -9,7 +9,6 @@
     },
     setup(props, content) {
       const toggle = () => {
-        console.log(!props.checked);
         content.emit('update:checked', !props.checked);
       };
       return {toggle};
@@ -23,7 +22,7 @@
     height: $h;
     width: $h *2;
     border: none;
-    background: blue;
+    background: #bfbfbf;
     border-radius: $h/2;
     position: relative;
 
@@ -38,8 +37,25 @@
       transition: left 0.25s;
     }
 
-    &.checked span {
-      left: calc(100% - #{$h2} - 2px)
+    &.checked {
+      background: #1890ff;
+
+      > span {
+        left: calc(100% - #{$h2} - 2px)
+      }
+    }
+
+    &:active {
+      > span {
+        width: $h2 +4px;
+      }
+    }
+
+    &.checked:active {
+      > span {
+        width: $h2 +4px;
+        margin-left: -4px;
+      }
     }
   }
 </style>

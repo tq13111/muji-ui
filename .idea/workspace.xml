@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="Switch 组件html、css、切换动画">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="使用 v-model、prop、emit 完善 Switch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
@@ -71,7 +71,7 @@
       <workItem from="1612670773482" duration="8111000" />
       <workItem from="1612680624213" duration="6562000" />
       <workItem from="1612698727308" duration="12031000" />
-      <workItem from="1612758491648" duration="8126000" />
+      <workItem from="1612758491648" duration="10098000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -150,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612767440957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="使用 v-model、prop、emit 完善 Switch">
+      <created>1612779040478</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612779040478</updated>
+    </task>
+    <task id="LOCAL-00013" summary="使用 v-model、prop、emit 完善 Switch">
+      <created>1612779339211</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612779339211</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +193,8 @@
     <MESSAGE value="完成 Doc 页面 css" />
     <MESSAGE value="完成 Doc 页面 css&#10;使用嵌套路由显示内容区域" />
     <MESSAGE value="Switch 组件html、css、切换动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch 组件html、css、切换动画" />
+    <MESSAGE value="使用 v-model、prop、emit 完善 Switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 v-model、prop、emit 完善 Switch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
