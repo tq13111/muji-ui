@@ -46,3 +46,8 @@ body {
   fill: currentColor;
   overflow: hidden;
 }
+button{
+  &:focus {
+    outline: none;
+  }
+}

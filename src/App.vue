@@ -14,7 +14,6 @@
       const asideVisible = ref(width > 500);
       provide('asideVisible', asideVisible);
       router.afterEach(() => {
-        console.log(width);
         if (width <= 500) {asideVisible.value = false;}
       });
     }

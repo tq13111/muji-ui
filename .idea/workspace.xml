@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成 Doc 页面 css">
-      <change afterPath="$PROJECT_DIR$/src/components/DocDefault.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="Switch 组件html、css、切换动画">
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,7 +68,8 @@
       <updated>1612670772308</updated>
       <workItem from="1612670773482" duration="8111000" />
       <workItem from="1612680624213" duration="6562000" />
-      <workItem from="1612698727308" duration="11256000" />
+      <workItem from="1612698727308" duration="12031000" />
+      <workItem from="1612758491648" duration="4478000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -126,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612709286689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完成 Doc 页面 css&#10;使用嵌套路由显示内容区域">
+      <created>1612710160331</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612710160331</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Switch 组件html、css、切换动画">
+      <created>1612767050176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612767050176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +168,9 @@
     <MESSAGE value="完善侧边栏切换逻辑" />
     <MESSAGE value="切换路由时关闭侧边栏" />
     <MESSAGE value="完成 Doc 页面 css" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Doc 页面 css" />
+    <MESSAGE value="完成 Doc 页面 css&#10;使用嵌套路由显示内容区域" />
+    <MESSAGE value="Switch 组件html、css、切换动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch 组件html、css、切换动画" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
