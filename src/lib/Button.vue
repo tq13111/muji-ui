@@ -50,11 +50,13 @@
 <style lang="scss">
   $h: 32px;
   $border-color: #d9d9d9;
-  $color: #333;
-  $blue: #40a9ff;
+  $color: #212168;
+  $blue: #2196f3;
   $radius: 4px;
-  $red: red;
+  $red: #ff4081;
   $grey: grey;
+  $green: #4caf50;
+  $yellow: #fdd835;
 
   .muji-button {
     box-sizing: border-box;
@@ -69,7 +71,7 @@
     color: $color;
     border: 1px solid $border-color;
     border-radius: $radius;
-    box-shadow: 0 1px 0 fade-out(black, 0.95);
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 
     & + & { //选中后面的兄弟元素
       margin-left: 8px;
@@ -95,7 +97,7 @@
       color: $blue;
 
       &:hover, &:focus {
-        color: lighten($blue, 10%);
+        color: lighten($blue, 15%);
       }
     }
 
@@ -105,7 +107,7 @@
       color: inherit;
 
       &:hover, &:focus {
-        background: darken(white, 5%);;
+        background: darken(white, 15%);;
       }
     }
 
@@ -134,6 +136,18 @@
         }
       }
 
+      &.muji-level-success {
+        background: $green;
+        color: white;
+        border-color: $green;
+
+        &:hover,
+        &:focus {
+          background: darken($green, 10%);
+          border-color: darken($green, 10%);
+        }
+      }
+
       &.muji-level-danger {
         background: $red;
         border-color: $red;
@@ -145,17 +159,57 @@
           border-color: darken($red, 10%);
         }
       }
+
+      &.muji-level-warning {
+        background: $yellow;
+        border-color: $yellow;
+        color: white;
+
+        &:hover,
+        &:focus {
+          background: darken($yellow, 10%);
+          border-color: darken($yellow, 10%);
+        }
+      }
     }
 
     &.muji-theme-link {
+      &.muji-level-main {
+        color: $blue;
+
+        &:hover,
+        &:focus {
+          color: darken($blue, 15%);
+        }
+      }
+
+      &.muji-level-success {
+        color: $green;
+
+        &:hover,
+        &:focus {
+          color: darken($green, 15%);
+        }
+      }
+
       &.muji-level-danger {
         color: $red;
 
         &:hover,
         &:focus {
-          color: darken($red, 10%);
+          color: darken($red, 15%);
         }
       }
+
+      &.muji-level-warning {
+        color: $yellow;
+
+        &:hover,
+        &:focus {
+          color: darken($yellow, 15%);
+        }
+      }
+
     }
 
     &.muji-theme-text {
@@ -164,7 +218,16 @@
 
         &:hover,
         &:focus {
-          color: darken($blue, 10%);
+          color: darken($blue, 15%);
+        }
+      }
+
+      &.muji-level-success {
+        color: $green;
+
+        &:hover,
+        &:focus {
+          color: darken($green, 15%);
         }
       }
 
@@ -173,7 +236,16 @@
 
         &:hover,
         &:focus {
-          color: darken($red, 10%);
+          color: darken($red, 15%);
+        }
+      }
+
+      &.muji-level-warning {
+        color: $yellow;
+
+        &:hover,
+        &:focus {
+          color: darken($yellow, 15%);
         }
       }
     }

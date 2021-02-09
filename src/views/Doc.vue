@@ -43,9 +43,11 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+
     > .nav {
       flex-shrink: 0;
     }
+
     > .content {
       flex-grow: 1;
       padding-top: 60px;
@@ -55,16 +57,20 @@
       }
     }
   }
+
   .content {
     display: flex;
+
     > aside {
       flex-shrink: 0;
     }
+
     > main {
       flex-grow: 1;
       padding: 16px;
     }
   }
+
   aside {
     background: lightblue;
     width: 150px;
@@ -74,16 +80,35 @@
     left: 0;
     padding-top: 70px;
     height: 100%;
+
     > h2 {
       margin-bottom: 4px;
     }
+
     > ol {
       > li {
         padding: 4px 0;
       }
     }
   }
+
   main {
     overflow: auto;
+
+    :deep .wrapper {
+      > h1, div:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      > .content {
+        background: #eee;
+        padding: 16px;
+
+      }
+    }
+
+    :deep .background {
+      background: inherit;
+    }
   }
 </style>
