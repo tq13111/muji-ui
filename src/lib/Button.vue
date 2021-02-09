@@ -16,13 +16,18 @@
         type: String,
         default: 'normal'
       },
+      level: {
+        type: String,
+        default: 'normal'
+      },
     },
     setup(props) {
-      const {theme, size} = props;
+      const {theme, size, level} = props;
       const classes = computed(() => {
         return {
           ['muji-theme-' + theme]: theme,
-          ['muji-size-' + size]: size
+          ['muji-size-' + size]: size,
+          ['muji-level-' + level]: level
         };
       });
       return {classes};
@@ -36,6 +41,8 @@
   $color: #333;
   $blue: #40a9ff;
   $radius: 4px;
+  $red: red;
+
   .muji-button {
     box-sizing: border-box;
     height: $h;
@@ -99,6 +106,63 @@
       font-size: 12px;
       height: 20px;
       padding: 0 4px;
+    }
+
+    &.muji-theme-button {
+      &.muji-level-main {
+        background: $blue;
+        color: white;
+        border-color: $blue;
+
+        &:hover,
+        &:focus {
+          background: darken($blue, 10%);
+          border-color: darken($blue, 10%);
+        }
+      }
+
+      &.muji-level-danger {
+        background: $red;
+        border-color: $red;
+        color: white;
+
+        &:hover,
+        &:focus {
+          background: darken($red, 10%);
+          border-color: darken($red, 10%);
+        }
+      }
+    }
+
+    &.muji-theme-link {
+      &.muji-level-danger {
+        color: $red;
+
+        &:hover,
+        &:focus {
+          color: darken($red, 10%);
+        }
+      }
+    }
+
+    &.muji-theme-text {
+      &.muji-level-main {
+        color: $blue;
+
+        &:hover,
+        &:focus {
+          color: darken($blue, 10%);
+        }
+      }
+
+      &.muji-level-danger {
+        color: $red;
+
+        &:hover,
+        &:focus {
+          color: darken($red, 10%);
+        }
+      }
     }
   }
 </style>
