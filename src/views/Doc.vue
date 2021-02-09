@@ -104,6 +104,9 @@
         background: #eee;
         padding: 16px;
 
+        Button {
+          margin-right: 24px
+        }
       }
     }
 
