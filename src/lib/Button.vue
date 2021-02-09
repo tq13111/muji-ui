@@ -27,7 +27,8 @@
         return {
           ['muji-theme-' + theme]: theme,
           ['muji-size-' + size]: size,
-          ['muji-level-' + level]: level
+          ['muji-level-' + level]: level,
+
         };
       });
       return {classes};
@@ -42,6 +43,7 @@
   $blue: #40a9ff;
   $radius: 4px;
   $red: red;
+  $grey: grey;
 
   .muji-button {
     box-sizing: border-box;
@@ -162,6 +164,24 @@
         &:focus {
           color: darken($red, 10%);
         }
+      }
+    }
+
+    &.muji-theme-button {
+      &[disabled] {
+        cursor: not-allowed;
+        color: $grey;
+
+        &:hover {
+          border-color: $grey;
+        }
+      }
+    }
+
+    &.muji-theme-link, &.muji-theme-text {
+      &[disabled] {
+        cursor: not-allowed;
+        color: $grey;
       }
     }
   }

@@ -13,6 +13,11 @@
     <Button>你好</Button>
     <Button level="main">你好</Button>
     <Button level="danger">你好</Button>
+    <h1>示例4</h1>
+    <Button>你好</Button>
+    <Button disabled>你好</Button>
+    <Button disabled theme="link">你好</Button>
+    <Button disabled theme="text">你好</Button>
   </div>
 </template>
 <script lang="ts">

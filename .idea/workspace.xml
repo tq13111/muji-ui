@@ -4,8 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="支持 size 属性">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="支持 level 属性">
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <workItem from="1612698727308" duration="12031000" />
       <workItem from="1612758491648" duration="21320000" />
       <workItem from="1612853838771" duration="598000" />
-      <workItem from="1612876418924" duration="2826000" />
+      <workItem from="1612876418924" duration="3132000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612878483126</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="支持 level 属性">
+      <created>1612879312508</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612879312508</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +241,8 @@
     <MESSAGE value="完成 Button 组件基础样式" />
     <MESSAGE value="完成 Button 组件默认样式，CSS 最小影响原则" />
     <MESSAGE value="支持 size 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持 size 属性" />
+    <MESSAGE value="支持 level 属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持 level 属性" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
