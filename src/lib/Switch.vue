@@ -1,5 +1,5 @@
 <template>
-  <button :class="{checked:checked}" @click="toggle"><span></span></button>
+  <button :class="{'muji-checked':checked}" class="muji-switch" @click="toggle"><span></span></button>
 </template>
 <script lang="ts">
 
@@ -15,10 +15,10 @@
     }
   };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
   $h: 22px;
   $h2: $h - 4px;
-  button {
+  .muji-switch {
     height: $h;
     width: $h *2;
     border: none;
@@ -37,7 +37,7 @@
       transition: left 0.25s;
     }
 
-    &.checked {
+    &.muji-checked {
       background: #1890ff;
 
       > span {
@@ -51,7 +51,7 @@
       }
     }
 
-    &.checked:active {
+    &.muji-checked:active {
       > span {
         width: $h2 +4px;
         margin-left: -4px;

@@ -1,16 +1,33 @@
 <template>
-  <button :class="'muji-theme-'+ theme" class="muji-button">
+  <button :class="classes" class="muji-button">
     <slot/>
   </button>
 </template>
 <script lang="ts">
+  import {computed} from 'vue';
+
   export default {
     props: {
       theme: {
         type: String,
         default: 'button'
       },
+      size: {
+        type: String,
+        default: 'normal'
+      },
     },
+    setup(props) {
+      const {theme, size} = props;
+      const classes = computed(() => {
+        return {
+          ['muji-theme-' + theme]: theme,
+          ['muji-size-' + size]: size
+        };
+      });
+      return {classes};
+    }
+
   };
 </script>
 <style lang="scss">
@@ -33,19 +50,55 @@
     border: 1px solid $border-color;
     border-radius: $radius;
     box-shadow: 0 1px 0 fade-out(black, 0.95);
+
     & + & { //选中后面的兄弟元素
       margin-left: 8px;
     }
+
     &:hover,
     &:focus {
       color: $blue;
       border-color: $blue;
     }
+
     &:focus {
       outline: none;
     }
+
     &::-moz-focus-inner {
       border: 0;
+    }
+
+    &.muji-theme-link {
+      border-color: transparent;
+      box-shadow: none;
+      color: $blue;
+
+      &:hover, &:focus {
+        color: lighten($blue, 10%);
+      }
+    }
+
+    &.muji-theme-text {
+      border-color: transparent;
+      box-shadow: none;
+      color: inherit;
+
+      &:hover, &:focus {
+        background: darken(white, 5%);;
+      }
+    }
+
+    &.muji-size-big {
+      font-size: 24px;
+      height: 48px;
+      padding: 0 16px;
+    }
+
+    &.muji-size-small {
+      font-size: 12px;
+      height: 20px;
+      padding: 0 4px;
     }
   }
 </style>
