@@ -1,5 +1,7 @@
 <template>
-  <button :class="classes" class="muji-button">
+  <button :class="classes"
+          :disabled="disabled"
+          class="muji-button">
     <slot/>
   </button>
 </template>
@@ -20,6 +22,10 @@
         type: String,
         default: 'normal'
       },
+      disabled: {
+        type: Boolean,
+        default: false
+      }
     },
     setup(props) {
       const {theme, size, level} = props;
