@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="支持 disabled 属性">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="增加复合属性标签">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
@@ -72,7 +72,7 @@
       <workItem from="1612698727308" duration="12031000" />
       <workItem from="1612758491648" duration="21320000" />
       <workItem from="1612853838771" duration="598000" />
-      <workItem from="1612876418924" duration="4026000" />
+      <workItem from="1612876418924" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612879570557</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="增加复合属性标签">
+      <created>1612880561081</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612880561081</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +265,8 @@
     <MESSAGE value="支持 size 属性" />
     <MESSAGE value="支持 level 属性" />
     <MESSAGE value="支持 disabled 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持 disabled 属性" />
+    <MESSAGE value="增加复合属性标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加复合属性标签" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
