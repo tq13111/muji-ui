@@ -6,10 +6,16 @@
       <div class="content">
         <Button @click="visibleToggle">toggle</Button>
         <Dialog v-model:visible="visible" :cancel="f2" :close-on-click-overlay="false" :ok="f1" :title="title">
-          <p>
-            Let Google help apps determine location. This means sending anonymous location data to Google, even when no
-            apps are running.
-          </p>
+          <template v-slot:title>
+            <strong v-slot:title>我是标题</strong>
+          </template>
+          <template v-slot:content>
+            <p>
+              Let Google help apps determine location. This means sending anonymous location data to Google, even when
+              no
+              apps are running.
+            </p>
+          </template>
         </Dialog>
       </div>
     </div>

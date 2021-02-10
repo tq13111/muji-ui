@@ -1,20 +1,23 @@
 <template>
   <template v-if="visible">
-    <div class="muji-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="muji-dialog-wrapper">
-      <div class="muji-dialog">
-        <header>{{ title }}
-          <span class="muji-dialog-close" @click="close"></span>
-        </header>
-        <main>
-          <slot/>
-        </main>
-        <footer>
-          <Button @click="okFunction">OK</Button>
-          <Button @click="cancelFunction">Cancel</Button>
-        </footer>
+    <Teleport to="body">
+      <div class="muji-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="muji-dialog-wrapper">
+        <div class="muji-dialog">
+          <header>
+            <slot name="title"/>
+            <span class="muji-dialog-close" @click="close"></span>
+          </header>
+          <main>
+            <slot name="content"/>
+          </main>
+          <footer>
+            <Button @click="okFunction">OK</Button>
+            <Button @click="cancelFunction">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
+    </Teleport>
   </template>
 </template>
 <script lang="ts">
@@ -35,9 +38,6 @@
       },
       cancel: {
         type: Function,
-      }, title: {
-        type: String,
-        default: '标题'
       },
     },
     components: {Button},
