@@ -95,7 +95,7 @@
   main {
     overflow: auto;
 
-    :deep .wrapper {
+    :deep(.wrapper) {
       > h1, div:not(:last-child) {
         margin-bottom: 16px;
       }
@@ -110,7 +110,7 @@
       }
     }
 
-    :deep .background {
+    :deep(.background) {
       background: inherit;
     }
   }
