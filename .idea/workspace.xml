@@ -4,10 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="支持 loading 属性">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="取消 Button 组件中 button 的margin-left">
+      <change afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
@@ -76,7 +77,7 @@
       <workItem from="1612876418924" duration="12758000" />
       <workItem from="1612891496805" duration="333000" />
       <workItem from="1612891842535" duration="70000" />
-      <workItem from="1612891924766" duration="2397000" />
+      <workItem from="1612891924766" duration="9852000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612882383567</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="取消 Button 组件中 button 的margin-left">
+      <created>1612894381535</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612894381535</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +286,8 @@
     <MESSAGE value="支持 disabled 属性" />
     <MESSAGE value="增加复合属性标签" />
     <MESSAGE value="支持 loading 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持 loading 属性" />
+    <MESSAGE value="取消 Button 组件中 button 的margin-left" />
+    <option name="LAST_COMMIT_MESSAGE" value="取消 Button 组件中 button 的margin-left" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
