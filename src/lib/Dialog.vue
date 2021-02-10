@@ -1,10 +1,10 @@
 <template>
   <template v-if="visible">
-    <div class="muji-dialog-overlay"></div>
+    <div class="muji-dialog-overlay" @click="onClickOverlay"></div>
     <div class="muji-dialog-wrapper">
       <div class="muji-dialog">
         <header>标题
-          <div class="muji-dialog-close"></div>
+          <span class="muji-dialog-close" @click="close"></span>
         </header>
         <main>
           <p>Let Google help apps determine location. This means sending anonymous location data to Google, even when no
@@ -12,8 +12,8 @@
           <p>xxx</p>
         </main>
         <footer>
-          <Button>OK</Button>
-          <Button>Cancel</Button>
+          <Button @click="okFunction">OK</Button>
+          <Button @click="cancelFunction">Cancel</Button>
         </footer>
       </div>
     </div>
@@ -27,12 +27,36 @@
       visible: {
         type: Boolean,
         default: false
+      },
+      closeOnClickOverlay: {
+        type: Boolean,
+        default: true
+      },
+      ok: {
+        type: Function,
+      },
+      cancel: {
+        type: Function,
       }
     },
     components: {Button},
-    setup(props, content) {
-
-      return;
+    setup: function (props, context) {
+      const close = () => {
+        context.emit('update:visible', !props.visible);
+      };
+      const onClickOverlay = () => {
+        if (props.closeOnClickOverlay) {
+          console.log(1333);
+          close();
+        }
+      };
+      const okFunction = () => {
+        if (props.ok?.() !== false) {close();}
+      };
+      const cancelFunction = () => {
+        if (props.cancel?.() !== false) {close();}
+      };
+      return {close, onClickOverlay, okFunction, cancelFunction};
     }
   };
 </script>

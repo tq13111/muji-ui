@@ -5,7 +5,7 @@
       <h1>普通</h1>
       <div class="content">
         <Button @click="visibleToggle">toggle</Button>
-        <Dialog :visible="visible"/>
+        <Dialog v-model:visible="visible" :cancel="f2" :close-on-click-overlay="false" :ok="f1"/>
       </div>
     </div>
   </div>
@@ -22,7 +22,13 @@
       const visibleToggle = () => {
         visible.value = !visible.value;
       };
-      return {visible, visibleToggle};
+      const f1 = () => {
+        console.log(1);
+      };
+      const f2 = () => {
+        console.log(2);
+      };
+      return {visible, visibleToggle, f1, f2};
     }
   };
 </script>
