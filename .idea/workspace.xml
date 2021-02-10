@@ -4,12 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="创建 Dialog 组件">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成 Dialog 组件 CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1612876418924" duration="12758000" />
       <workItem from="1612891496805" duration="333000" />
       <workItem from="1612891842535" duration="70000" />
-      <workItem from="1612891924766" duration="12661000" />
+      <workItem from="1612891924766" duration="13304000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -255,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612936686172</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="完成 Dialog 组件 CSS">
+      <created>1612939374357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612939374357</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +301,8 @@
     <MESSAGE value="支持 loading 属性" />
     <MESSAGE value="取消 Button 组件中 button 的margin-left" />
     <MESSAGE value="创建 Dialog 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 Dialog 组件" />
+    <MESSAGE value="完成 Dialog 组件 CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Dialog 组件 CSS" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

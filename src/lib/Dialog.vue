@@ -1,27 +1,34 @@
 <template>
-  <div class="muji-dialog-overlay"></div>
-  <div class="muji-dialog-wrapper">
-    <div class="muji-dialog">
-      <header>标题
-        <div class="muji-dialog-close"></div>
-      </header>
-      <main>
-        <p>Let Google help apps determine location. This means sending anonymous location data to Google, even when no
-          apps are running.</p>
-        <p>xxx</p>
-      </main>
-      <footer>
-        <Button>OK</Button>
-        <Button>Cancel</Button>
-      </footer>
+  <template v-if="visible">
+    <div class="muji-dialog-overlay"></div>
+    <div class="muji-dialog-wrapper">
+      <div class="muji-dialog">
+        <header>标题
+          <div class="muji-dialog-close"></div>
+        </header>
+        <main>
+          <p>Let Google help apps determine location. This means sending anonymous location data to Google, even when no
+            apps are running.</p>
+          <p>xxx</p>
+        </main>
+        <footer>
+          <Button>OK</Button>
+          <Button>Cancel</Button>
+        </footer>
+      </div>
     </div>
-  </div>
+  </template>
 </template>
 <script lang="ts">
   import Button from './Button.vue';
 
   export default {
-    props: {},
+    props: {
+      visible: {
+        type: Boolean,
+        default: false
+      }
+    },
     components: {Button},
     setup(props, content) {
 
