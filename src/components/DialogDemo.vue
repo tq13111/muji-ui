@@ -4,19 +4,7 @@
     <div class="wrapper">
       <h1>普通</h1>
       <div class="content">
-        <Button @click="visibleToggle">toggle</Button>
-        <Dialog v-model:visible="visible" :cancel="f2" :close-on-click-overlay="false" :ok="f1" :title="title">
-          <template v-slot:title>
-            <strong v-slot:title>我是标题</strong>
-          </template>
-          <template v-slot:content>
-            <p>
-              Let Google help apps determine location. This means sending anonymous location data to Google, even when
-              no
-              apps are running.
-            </p>
-          </template>
-        </Dialog>
+        <Button @click="showDialog">toggle</Button>
       </div>
     </div>
   </div>
@@ -24,23 +12,27 @@
 <script lang="ts">
   import Dialog from '../lib/Dialog.vue';
   import Button from '../lib/Button.vue';
-  import {ref} from 'vue';
+  import {openDialog} from '../lib/openDialog';
 
   export default {
     components: {Button, Dialog},
     setup() {
-      const visible = ref(false);
-      const visibleToggle = () => {
-        visible.value = !visible.value;
+      const showDialog = () => {
+        openDialog({
+          title: '我是标题',
+          content: 'Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.',
+          closeOnClickOverlay: true,
+          ok() {
+            console.log(1);
+            return true;
+          },
+          cancel() {
+            console.log(2);
+            return true;
+          }
+        });
       };
-      const f1 = () => {
-        console.log(1);
-      };
-      const f2 = () => {
-        console.log(2);
-      };
-      const title = '我是标题';
-      return {visible, visibleToggle, f1, f2, title};
+      return {showDialog};
     }
   };
 </script>

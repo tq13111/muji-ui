@@ -105,7 +105,7 @@
         padding: 16px;
 
         Button {
-          margin-right: 24px
+          margin-right: 8px;
         }
       }
     }

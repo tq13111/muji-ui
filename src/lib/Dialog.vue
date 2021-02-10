@@ -47,7 +47,6 @@
       };
       const onClickOverlay = () => {
         if (props.closeOnClickOverlay) {
-          console.log(1333);
           close();
         }
       };
