@@ -3,13 +3,11 @@
     <div class="muji-dialog-overlay" @click="onClickOverlay"></div>
     <div class="muji-dialog-wrapper">
       <div class="muji-dialog">
-        <header>标题
+        <header>{{ title }}
           <span class="muji-dialog-close" @click="close"></span>
         </header>
         <main>
-          <p>Let Google help apps determine location. This means sending anonymous location data to Google, even when no
-            apps are running.</p>
-          <p>xxx</p>
+          <slot/>
         </main>
         <footer>
           <Button @click="okFunction">OK</Button>
@@ -37,7 +35,10 @@
       },
       cancel: {
         type: Function,
-      }
+      }, title: {
+        type: String,
+        default: '标题'
+      },
     },
     components: {Button},
     setup: function (props, context) {
@@ -104,7 +105,7 @@
       padding: 12px 16px;
       color: rgba(0, 0, 0, .6);
 
-      > p {
+      > * {
         word-break: break-word;
       }
     }

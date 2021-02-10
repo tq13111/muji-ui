@@ -5,7 +5,12 @@
       <h1>普通</h1>
       <div class="content">
         <Button @click="visibleToggle">toggle</Button>
-        <Dialog v-model:visible="visible" :cancel="f2" :close-on-click-overlay="false" :ok="f1"/>
+        <Dialog v-model:visible="visible" :cancel="f2" :close-on-click-overlay="false" :ok="f1" :title="title">
+          <p>
+            Let Google help apps determine location. This means sending anonymous location data to Google, even when no
+            apps are running.
+          </p>
+        </Dialog>
       </div>
     </div>
   </div>
@@ -28,7 +33,8 @@
       const f2 = () => {
         console.log(2);
       };
-      return {visible, visibleToggle, f1, f2};
+      const title = '我是标题';
+      return {visible, visibleToggle, f1, f2, title};
     }
   };
 </script>
