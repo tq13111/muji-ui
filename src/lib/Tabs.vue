@@ -2,12 +2,15 @@
   <div class="muji-tabs">
     <div class="muji-tabs-nav">
       <div v-for="(item,index) in titles"
+           :ref="el => { if (el) items[index] = el }"
            :key="index"
            :class="{selected:item === selected}"
            class="muji-tabs-nav-item"
            @click="$emit('update:selected',item)">
         {{ item }}
       </div>
+      <div ref="indicator"
+           class="muji-tabs-nav-indicator"></div>
     </div>
     <div class="muji-tabs-content">
       <component :is="current" :key="selected"/>
@@ -16,7 +19,7 @@
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
-  import {computed} from 'vue';
+  import {computed, ref, onMounted} from 'vue';
 
   export default {
     props: {
@@ -39,7 +42,17 @@
           return item.props.title === props.selected;
         })[0];
       });
-      return {defaults, titles, current};
+      const items = ref<HTMLDivElement[]>([]);
+      const indicator = ref(null);
+      onMounted(() => {
+        const divs = items.value;
+        const result = divs.filter((div) =>
+          div.classList.contains('selected')
+        )[0];
+        const {width} = result.getBoundingClientRect();
+        indicator.value.style.width = width + 'px';
+      });
+      return {defaults, titles, current, items, indicator};
     }
   };
 </script>
@@ -53,6 +66,7 @@
       display: flex;
       color: $color;
       border-bottom: 1px solid $border-color;
+      position: relative;
 
       &-item {
         padding: 8px 0;
@@ -66,6 +80,14 @@
         &.selected {
           color: $blue;
         }
+      }
+
+      &-indicator {
+        position: absolute;
+        height: 3px;
+        background: $blue;
+        left: 0;
+        bottom: -1px;
       }
     }
 
