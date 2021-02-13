@@ -4,12 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="使用 Teleport 组件">
-      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成一句代码打开 Dialog 功能">
+      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,8 @@
       <workItem from="1612876418924" duration="12758000" />
       <workItem from="1612891496805" duration="333000" />
       <workItem from="1612891842535" duration="70000" />
-      <workItem from="1612891924766" duration="26277000" />
+      <workItem from="1612891924766" duration="27169000" />
+      <workItem from="1613203193836" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -297,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612946331877</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="完成一句代码打开 Dialog 功能">
+      <created>1612963274311</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612963274311</updated>
+    </task>
+    <task id="LOCAL-00033" summary="完成一句代码打开 Dialog 功能">
+      <created>1612963279487</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1612963279487</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +330,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成 Home、Doc 页面 html、css" />
     <MESSAGE value="使用 provide、inject 实现切换侧边栏" />
     <MESSAGE value="完善侧边栏切换逻辑" />
     <MESSAGE value="切换路由时关闭侧边栏" />
@@ -341,7 +354,8 @@
     <MESSAGE value="支持 title 属性&#10;使用插槽自定义内容" />
     <MESSAGE value="支持自定义标题、内容" />
     <MESSAGE value="使用 Teleport 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 Teleport 组件" />
+    <MESSAGE value="完成一句代码打开 Dialog 功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成一句代码打开 Dialog 功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
