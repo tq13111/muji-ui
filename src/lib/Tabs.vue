@@ -2,7 +2,7 @@
   <div class="muji-tabs">
     <div ref="container" class="muji-tabs-nav">
       <div v-for="(item,index) in titles"
-           :ref="el => { if (el) items[index] = el }"
+           :ref="el => { if (item ===selected) { selectedDiv = el} }"
            :key="index"
            :class="{selected:item === selected}"
            class="muji-tabs-nav-item"
@@ -10,7 +10,8 @@
         {{ item }}
       </div>
       <div ref="indicator"
-           class="muji-tabs-nav-indicator"></div>
+           class="muji-tabs-nav-indicator">
+      </div>
     </div>
     <div class="muji-tabs-content">
       <component :is="current" :key="selected"/>
@@ -42,22 +43,18 @@
           return item.props.title === props.selected;
         })[0];
       });
-      const items = ref<HTMLDivElement[]>([]);
+      const selectedDiv = ref<HTMLDivElement>(null);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
       const x = () => {
-        const divs = items.value;
-        const result = divs.filter((div) =>
-          div.classList.contains('selected')
-        )[0];
-        const {width, left} = result.getBoundingClientRect();
+        const {width, left} = selectedDiv.value.getBoundingClientRect();
         indicator.value.style.width = width + 'px';
         const {left: containerLeft} = container.value.getBoundingClientRect();
         indicator.value.style.left = left - containerLeft + 'px';
       };
       onMounted(x);
       onUpdated(x);
-      return {defaults, titles, current, items, indicator, container};
+      return {defaults, titles, current, selectedDiv, indicator, container};
     }
   };
 </script>
@@ -92,7 +89,7 @@
         height: 3px;
         background: $blue;
         bottom: -1px;
-        transition: left 250ms;
+        transition: all 1s;
       }
     }
 

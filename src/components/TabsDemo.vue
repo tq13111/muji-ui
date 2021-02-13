@@ -4,7 +4,7 @@
     <div class="content">
       <Tabs v-model:selected="title">
         <Tab title="导航1">内容1</Tab>
-        <Tab title="导航2xxx">内容2</Tab>
+        <Tab title="导航2">内容2</Tab>
       </Tabs>
     </div>
   </div>
@@ -16,7 +16,7 @@
 
   export default {
     components: {Tab, Tabs},
-    setup(props, context) {
+    setup() {
       const title = ref('导航1');
       return {title};
     }
