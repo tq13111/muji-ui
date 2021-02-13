@@ -1,6 +1,6 @@
 <template>
   <div class="muji-tabs">
-    <div class="muji-tabs-nav">
+    <div ref="container" class="muji-tabs-nav">
       <div v-for="(item,index) in titles"
            :ref="el => { if (el) items[index] = el }"
            :key="index"
@@ -19,7 +19,7 @@
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
-  import {computed, ref, onMounted} from 'vue';
+  import {computed, ref, onMounted, onUpdated} from 'vue';
 
   export default {
     props: {
@@ -43,16 +43,21 @@
         })[0];
       });
       const items = ref<HTMLDivElement[]>([]);
-      const indicator = ref(null);
-      onMounted(() => {
+      const indicator = ref<HTMLDivElement>(null);
+      const container = ref<HTMLDivElement>(null);
+      const x = () => {
         const divs = items.value;
         const result = divs.filter((div) =>
           div.classList.contains('selected')
         )[0];
-        const {width} = result.getBoundingClientRect();
+        const {width, left} = result.getBoundingClientRect();
         indicator.value.style.width = width + 'px';
-      });
-      return {defaults, titles, current, items, indicator};
+        const {left: containerLeft} = container.value.getBoundingClientRect();
+        indicator.value.style.left = left - containerLeft + 'px';
+      };
+      onMounted(x);
+      onUpdated(x);
+      return {defaults, titles, current, items, indicator, container};
     }
   };
 </script>
@@ -86,8 +91,8 @@
         position: absolute;
         height: 3px;
         background: $blue;
-        left: 0;
         bottom: -1px;
+        transition: left 250ms;
       }
     }
 
