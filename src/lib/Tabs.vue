@@ -10,12 +10,13 @@
       </div>
     </div>
     <div class="muji-tabs-content">
-      <component :is="item" v-for="(item,index) in defaults" :key="index"/>
+      <component :is="current" :key="selected"/>
     </div>
   </div>
 </template>
 <script lang="ts">
   import Tab from './Tab.vue';
+  import {computed} from 'vue';
 
   export default {
     props: {
@@ -33,7 +34,12 @@
       const titles = defaults.map(tag =>
         tag.props.title
       );
-      return {defaults, titles};
+      const current = computed(() => {
+        return defaults.filter((item) => {
+          return item.props.title === props.selected;
+        })[0];
+      });
+      return {defaults, titles, current};
     }
   };
 </script>
