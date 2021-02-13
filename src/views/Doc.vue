@@ -94,24 +94,24 @@
 
   main {
     overflow: auto;
+  }
 
-    :deep(.wrapper) {
-      > h1, div:not(:last-child) {
-        margin-bottom: 16px;
-      }
-
-      > .content {
-        background: #eee;
-        padding: 16px;
-
-        Button {
-          margin-right: 8px;
-        }
-      }
+  :deep(.wrapper) {
+    > h1, div:not(:last-child) {
+      margin-bottom: 16px;
     }
 
-    :deep(.background) {
-      background: inherit;
+    > .content {
+      background: #eee;
+      padding: 16px;
+
+      Button {
+        margin-right: 8px;
+      }
     }
+  }
+
+  :deep(.background) {
+    background: inherit;
   }
 </style>

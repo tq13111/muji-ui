@@ -18,5 +18,9 @@
   };
 </script>
 <style lang="scss" scoped>
-
+  .wrapper {
+    .content {
+      background: white;
+    }
+  }
 </style>
