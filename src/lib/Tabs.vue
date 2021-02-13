@@ -1,7 +1,13 @@
 <template>
   <div class="muji-tabs">
     <div class="muji-tabs-nav">
-      <div v-for="(item,index) in titles" :key="index" class="muji-tabs-nav-item">{{ item }}</div>
+      <div v-for="(item,index) in titles"
+           :key="index"
+           :class="{selected:item === selected}"
+           class="muji-tabs-nav-item"
+           @click="$emit('update:selected',item)">
+        {{ item }}
+      </div>
     </div>
     <div class="muji-tabs-content">
       <component :is="item" v-for="(item,index) in defaults" :key="index"/>
@@ -12,6 +18,11 @@
   import Tab from './Tab.vue';
 
   export default {
+    props: {
+      selected: {
+        type: String,
+      }
+    },
     setup(props, context) {
       const defaults = context.slots.default();
       defaults.forEach((tag) => {

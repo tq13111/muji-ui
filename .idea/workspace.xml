@@ -4,13 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成检查子组件类型功能">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成 Tabs CSS">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1612891842535" duration="70000" />
       <workItem from="1612891924766" duration="27169000" />
       <workItem from="1613203193836" duration="1385000" />
-      <workItem from="1613205207892" duration="2723000" />
+      <workItem from="1613205207892" duration="5443000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -335,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613209109918</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="完成 Tabs CSS">
+      <created>1613211494829</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1613211494829</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +359,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="切换路由时关闭侧边栏" />
     <MESSAGE value="完成 Doc 页面 css" />
     <MESSAGE value="完成 Doc 页面 css&#10;使用嵌套路由显示内容区域" />
     <MESSAGE value="Switch 组件html、css、切换动画" />
@@ -379,7 +383,8 @@
     <MESSAGE value="完成一句代码打开 Dialog 功能" />
     <MESSAGE value="创建 Tabs、Tab 组件" />
     <MESSAGE value="完成检查子组件类型功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成检查子组件类型功能" />
+    <MESSAGE value="完成 Tabs CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Tabs CSS" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
