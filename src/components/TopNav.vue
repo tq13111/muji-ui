@@ -1,7 +1,11 @@
 <template>
   <div class="topNav">
     <span @click="toggleAside"></span>
-    <div class="logo">LOGO</div>
+    <div class="logo">
+      <svg class="icon">
+        <use xlink:href="#icon-steam"></use>
+      </svg>
+    </div>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
@@ -39,6 +43,11 @@
     > .logo {
       max-width: 6em;
       margin-right: auto;
+
+      > svg {
+        width: 34px;
+        height: 34px;
+      }
     }
 
     > .menu {

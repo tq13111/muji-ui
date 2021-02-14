@@ -1,13 +1,26 @@
 <template>
-  <div class="wrapper">
-    <TopNav/>
-    <div class="banner">
-      <h1>慕积 UI</h1>
-      <h2>一个炫酷的 UI 框架</h2>
-      <p class="actions">
-        <a href="">GtiHub</a>
-        <router-link to="/doc" href="">开始</router-link>
-      </p>
+  <div>
+    <div class="wrapper">
+      <TopNav/>
+      <div class="banner">
+        <h1>慕积 UI</h1>
+        <h2>一个炫酷的 UI 框架</h2>
+        <p class="actions">
+          <a href="">GtiHub</a>
+          <router-link href="" to="/doc">开始</router-link>
+        </p>
+      </div>
+    </div>
+    <div class="features">
+      <svg class="icon">
+        <use xlink:href="#icon-vue"></use>
+      </svg>
+      <svg class="icon">
+        <use xlink:href="#icon-typescript"></use>
+      </svg>
+      <svg class="icon">
+        <use xlink:href="#icon-light"></use>
+      </svg>
     </div>
   </div>
 </template>
@@ -26,6 +39,14 @@
   $color: #18a79f;
   .wrapper {
     background: linear-gradient(135deg, rgba(227, 255, 253, 1) 0%, rgb(135, 227, 222) 100%);
+  }
+
+  .features {
+    > svg {
+      width: 64px;
+      height: 64px;
+    }
+
   }
 
   .banner {
