@@ -23,8 +23,8 @@
 
 </script>
 <style lang="scss" scoped>
+  $color: #18a79f;
   .topNav {
-    background: pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +34,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
+    color: $color;
 
     > .logo {
       max-width: 6em;

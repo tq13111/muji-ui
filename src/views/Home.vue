@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <TopNav/>
     <div class="banner">
       <h1>慕积 UI</h1>
@@ -14,32 +14,42 @@
 
 <script lang="ts">
   import TopNav from '../components/TopNav.vue';
+
   export default {
-    components:{TopNav}
+    components: {TopNav}
   };
 </script>
 
 <style lang="scss" scoped>
+  $green: #02bcb0;
+  $border-radius: 20px;
+  $color: #18a79f;
+  .wrapper {
+    background: linear-gradient(135deg, rgba(227, 255, 253, 1) 0%, rgb(135, 227, 222) 100%);
+  }
+
   .banner {
     padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: lightgreen;
+    color: $color;
 
     > .actions {
       padding: 8px 0;
 
       a {
         margin: 0 8px;
-        background: #fff;
+        background: $green;
+        color: white;
         display: inline-block;
-        $h: 28px;
-        height: $h;
-        line-height: $h;
-        border-radius: $h/2;
-        padding: 0 8px;
+        border-radius: $border-radius;
+        padding: 8px 24px;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
