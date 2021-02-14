@@ -1,6 +1,8 @@
 <template>
   <div class="topNav">
-    <span v-if="toggleAsideButtonVisible" @click="toggleAside"></span>
+    <svg v-if="toggleAsideButtonVisible" class="icon" @click="toggleAside">
+      <use xlink:href="#icon-menu"></use>
+    </svg>
     <div class="logo">
       <svg class="icon">
         <use xlink:href="#icon-steam"></use>
@@ -66,7 +68,7 @@
       }
     }
 
-    > span {
+    > svg {
       display: none;
     }
 
@@ -79,9 +81,9 @@
         display: none;
       }
 
-      > span {
+
+      > svg {
         display: inline-block;
-        background: blue;
         width: 20px;
         height: 20px;
       }
