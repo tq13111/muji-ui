@@ -1,6 +1,6 @@
 <template>
   <div class="topNav">
-    <span @click="toggleAside"></span>
+    <span v-if="toggleAsideButtonVisible" @click="toggleAside"></span>
     <div class="logo">
       <svg class="icon">
         <use xlink:href="#icon-steam"></use>
@@ -16,6 +16,12 @@
   import {inject, Ref} from 'vue';
 
   export default {
+    props: {
+      toggleAsideButtonVisible: {
+        type: Boolean,
+        default: false
+      }
+    },
     setup() {
       const asideVisible = inject<Ref<boolean>>('asideVisible');
       const toggleAside = () => {
