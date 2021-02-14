@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="点击 logo 跳转主页">
-      <change afterPath="$PROJECT_DIR$/src/components/GetStarted.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Intro.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/install.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="KEEP" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
@@ -55,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -63,10 +65,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="O:\T\Desktop\jirengu\muji-ui\src" />
+      <recent name="O:\T\Desktop\jirengu\muji-ui" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="O:\T\Desktop\jirengu\muji-ui" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src" />
+      <recent name="O:\T\Desktop\jirengu\muji-ui\src\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
