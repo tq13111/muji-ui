@@ -39,6 +39,7 @@
   $color: #18a79f;
   .wrapper {
     background: linear-gradient(135deg, rgba(227, 255, 253, 1) 0%, rgb(135, 227, 222) 100%);
+    clip-path: ellipse(80% 60% at 50% 40%);
   }
 
   .features {

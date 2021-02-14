@@ -4,12 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="美化官网 背景、文字、链接颜色">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="添加 icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +80,7 @@
       <workItem from="1613203193836" duration="1385000" />
       <workItem from="1613205207892" duration="14135000" />
       <workItem from="1613236109534" duration="2322000" />
-      <workItem from="1613241427984" duration="8117000" />
+      <workItem from="1613241427984" duration="9794000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -387,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613288192840</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="添加 icon">
+      <created>1613289911047</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1613289911047</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="完成 Button 组件基础样式" />
     <MESSAGE value="完成 Button 组件默认样式，CSS 最小影响原则" />
     <MESSAGE value="支持 size 属性" />
     <MESSAGE value="支持 level 属性" />
@@ -432,7 +434,8 @@
     <MESSAGE value="实现下划线滑动动画" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="美化官网 背景、文字、链接颜色" />
-    <option name="LAST_COMMIT_MESSAGE" value="美化官网 背景、文字、链接颜色" />
+    <MESSAGE value="添加 icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 icon" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
