@@ -4,9 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="更新侧边栏按钮 icon">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="点击 logo 跳转主页">
+      <change afterPath="$PROJECT_DIR$/src/components/GetStarted.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/install.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +89,9 @@
       <workItem from="1613203193836" duration="1385000" />
       <workItem from="1613205207892" duration="14135000" />
       <workItem from="1613236109534" duration="2322000" />
-      <workItem from="1613241427984" duration="15021000" />
+      <workItem from="1613241427984" duration="17341000" />
+      <workItem from="1613300482928" duration="941000" />
+      <workItem from="1613302083943" duration="2884000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612675920832</created>
@@ -418,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613296646296</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="点击 logo 跳转主页">
+      <created>1613297616544</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1613297616544</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="增加复合属性标签" />
     <MESSAGE value="支持 loading 属性" />
     <MESSAGE value="取消 Button 组件中 button 的margin-left" />
     <MESSAGE value="创建 Dialog 组件" />
@@ -463,7 +480,8 @@
     <MESSAGE value="响应式布局" />
     <MESSAGE value="支持 toggleAsideButtonVisible 属性" />
     <MESSAGE value="更新侧边栏按钮 icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新侧边栏按钮 icon" />
+    <MESSAGE value="点击 logo 跳转主页" />
+    <option name="LAST_COMMIT_MESSAGE" value="点击 logo 跳转主页" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

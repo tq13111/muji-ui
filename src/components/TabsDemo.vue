@@ -26,6 +26,7 @@
   .wrapper {
     .content {
       background: white;
+      padding: 0;
     }
   }
 </style>

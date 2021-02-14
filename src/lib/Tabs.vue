@@ -64,6 +64,8 @@
   $border-color: #d9d9d9;
 
   .muji-tabs {
+    background: white;
+
     &-nav {
       display: flex;
       color: $color;

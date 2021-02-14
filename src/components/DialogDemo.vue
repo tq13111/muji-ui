@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>Dialog 示例</div>
     <div class="wrapper">
       <h1>普通</h1>
       <div class="content">

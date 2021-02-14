@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-    <div>Button 示例</div>
     <h1>主题</h1>
     <div class="content">
       <Button>你好</Button>
