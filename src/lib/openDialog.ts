@@ -1,7 +1,7 @@
 import {createApp, h} from 'vue';
 import Dialog from './Dialog.vue';
 
-export const openDialog = (options) => {
+export const openDialog = (options: DialogOptions) => {
   const {closeOnClickOverlay, ok, cancel, title, content} = options;
   const div = document.createElement('div');
   document.body.appendChild(div);
@@ -18,8 +18,8 @@ export const openDialog = (options) => {
           closeOnClickOverlay,
           ok,
           cancel,
-          'onUpdate:visible': (newVisible) => {
-            if (newVisible === false) {close();}
+          'onUpdate:visible': (newVisible: boolean) => {
+            if (!newVisible) {close();}
           }
         },
         {

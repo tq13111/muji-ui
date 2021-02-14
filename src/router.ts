@@ -8,8 +8,11 @@ import Tabs from './components/TabsDemo.vue';
 import DocDefault from './components/DocDefault.vue';
 import Markdown from './components/Markdown.vue';
 import {h} from 'vue';
+import intro from './markdown/intro.md';
+import getStarted from './markdown/get-started.md';
+import install from './markdown/install.md';
 
-const md = filename => h(Markdown, {path: `../markdown/${filename}.md`, key: filename});
+const md = (content: string) => h(Markdown, {content, key: content});
 const history = createWebHashHistory();
 const router = createRouter({
   history,
@@ -18,9 +21,9 @@ const router = createRouter({
     {
       path: '/doc', component: Doc, children: [
         {path: '', component: DocDefault},
-        {path: 'intro', component: md('intro')},
-        {path: 'get-started', component: md('get-started')},
-        {path: 'install', component: md('install')},
+        {path: 'intro', component: md(intro)},
+        {path: 'get-started', component: md(getStarted)},
+        {path: 'install', component: md(install)},
         {path: 'switch', component: Switch},
         {path: 'button', component: Button},
         {path: 'dialog', component: Dialog},

@@ -4,9 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="使用插件引入 md 文件显示在页面中，使用 github-markdown-css 美化">
-      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="doc 根页面重定向到 intro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +47,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bill" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="O:\T\Desktop\jirengu\muji-ui\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -60,8 +60,8 @@
       <recent name="O:\T\Desktop\jirengu\muji-ui\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="O:\T\Desktop\jirengu\muji-ui" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src" />
+      <recent name="O:\T\Desktop\jirengu\muji-ui" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src\views" />
     </key>
   </component>
@@ -88,41 +88,12 @@
       <workItem from="1613241427984" duration="17341000" />
       <workItem from="1613300482928" duration="941000" />
       <workItem from="1613302083943" duration="2884000" />
-    </task>
-    <task id="LOCAL-00002" summary="init vue-router">
-      <created>1612677943513</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1612677943513</updated>
-    </task>
-    <task id="LOCAL-00003" summary="封装 TopNav 组件">
-      <created>1612682039295</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1612682039295</updated>
-    </task>
-    <task id="LOCAL-00004" summary="完成 Home、Doc 页面 html、css">
-      <created>1612687056602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1612687056602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="使用 provide、inject 实现切换侧边栏">
-      <created>1612701867212</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1612701867212</updated>
-    </task>
-    <task id="LOCAL-00006" summary="完善侧边栏切换逻辑">
-      <created>1612704282002</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1612704282002</updated>
+      <workItem from="1613325459837" duration="2832000" />
+      <workItem from="1613328317175" duration="1896000" />
+      <workItem from="1613330247790" duration="136000" />
+      <workItem from="1613330405210" duration="354000" />
+      <workItem from="1613363110883" duration="683000" />
+      <workItem from="1613363814386" duration="3455000" />
     </task>
     <task id="LOCAL-00007" summary="切换路由时关闭侧边栏">
       <created>1612707045409</created>
@@ -432,7 +403,42 @@
       <option name="project" value="LOCAL" />
       <updated>1613313590343</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="封装 Markdown 组件、实现使用 md 函数创建 Markdown 组件">
+      <created>1613325845733</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1613325845736</updated>
+    </task>
+    <task id="LOCAL-00052" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613329815879</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1613329815880</updated>
+    </task>
+    <task id="LOCAL-00053" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613330446576</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1613330446577</updated>
+    </task>
+    <task id="LOCAL-00054" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613364530322</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1613364530323</updated>
+    </task>
+    <task id="LOCAL-00055" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613371108113</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1613371108113</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,9 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="取消 Button 组件中 button 的margin-left" />
-    <MESSAGE value="创建 Dialog 组件" />
-    <MESSAGE value="完成 Dialog 组件 CSS" />
     <MESSAGE value="支持 visible 属性" />
     <MESSAGE value="支持 closeOnClickOverlay、ok、cancel 属性" />
     <MESSAGE value="支持 title 属性&#10;使用插槽自定义内容" />
@@ -477,9 +480,13 @@
     <MESSAGE value="更新侧边栏按钮 icon" />
     <MESSAGE value="点击 logo 跳转主页" />
     <MESSAGE value="使用插件引入 md 文件显示在页面中，使用 github-markdown-css 美化" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用插件引入 md 文件显示在页面中，使用 github-markdown-css 美化" />
+    <MESSAGE value="封装 Markdown 组件、实现使用 md 函数创建 Markdown 组件" />
+    <MESSAGE value="修复动态引入 md 文件 build 后 找不到文件 bug" />
+    <MESSAGE value="doc 根页面重定向到 intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc 根页面重定向到 intro" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
