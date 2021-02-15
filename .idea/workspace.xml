@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="修改 DialogOptions 类型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <list id="38977265-d0f5-4024-9c5c-838d3c238d75" name="优化 router" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +29,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -459,7 +458,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

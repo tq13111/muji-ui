@@ -32,7 +32,7 @@
         x.value = !x.value;
       };
       const f1 = () => {
-        return false;
+        console.log(1);
       };
       const f2 = () => {};
       return {
