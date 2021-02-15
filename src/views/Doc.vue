@@ -52,7 +52,7 @@
 </script>
 <style lang="scss" scoped>
   $color: #30cfc6;
-
+  $border-color: #d9d9d9;
   .layout {
     display: flex;
     flex-direction: column;
@@ -60,7 +60,12 @@
 
     > .nav {
       flex-shrink: 0;
+      background: white;
+      padding: 10px 16px;
+      box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+
     }
+
 
     > .content {
       flex-grow: 1;
