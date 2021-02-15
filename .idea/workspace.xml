@@ -4,10 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="使用 PrimsJS 美化网页中的代码">
-      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="封装 Demo 组件">
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +95,7 @@
       <workItem from="1613375084691" duration="830000" />
       <workItem from="1613376121146" duration="528000" />
       <workItem from="1613376679360" duration="4356000" />
-      <workItem from="1613381185359" duration="7336000" />
-    </task>
-    <task id="LOCAL-00016" summary="完成 Button 组件基础样式">
-      <created>1612791992230</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1612791992230</updated>
+      <workItem from="1613381185359" duration="8294000" />
     </task>
     <task id="LOCAL-00017" summary="完成 Button 组件默认样式，CSS 最小影响原则">
       <created>1612794185230</created>
@@ -442,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613387316777</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="封装 Demo 组件">
+      <created>1613389581528</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1613389581528</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="使用 Teleport 组件" />
     <MESSAGE value="完成一句代码打开 Dialog 功能" />
     <MESSAGE value="创建 Tabs、Tab 组件" />
     <MESSAGE value="完成检查子组件类型功能" />
@@ -487,7 +484,8 @@
     <MESSAGE value="完成展示源代码功能" />
     <MESSAGE value="小优化，使用 component" />
     <MESSAGE value="使用 PrimsJS 美化网页中的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 PrimsJS 美化网页中的代码" />
+    <MESSAGE value="封装 Demo 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装 Demo 组件" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
