@@ -13,7 +13,6 @@ export const openDialog = (options: DialogOptions) => {
   const app = createApp({
     render() {
       return h(
-        // @ts-ignore
         Dialog,
         {
           visible: true,

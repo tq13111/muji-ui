@@ -4,18 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="增加 Doc 页面 TopNav 组件背景">
-      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="改造 Button Demo">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,9 @@
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1o8aeseA1ZqjKR00RHNwkvXGSoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
     <property name="ts.external.directory.path" value="O:\T\Desktop\jirengu\muji-ui\node_modules\typescript\lib" />
@@ -63,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="O:\T\Desktop\jirengu\muji-ui\src\components" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src" />
       <recent name="O:\T\Desktop\jirengu\muji-ui" />
       <recent name="O:\T\Desktop\jirengu\muji-ui\src\assets" />
@@ -105,14 +109,7 @@
       <workItem from="1613375084691" duration="830000" />
       <workItem from="1613376121146" duration="528000" />
       <workItem from="1613376679360" duration="4356000" />
-      <workItem from="1613381185359" duration="13528000" />
-    </task>
-    <task id="LOCAL-00019" summary="支持 level 属性">
-      <created>1612879312508</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1612879312508</updated>
+      <workItem from="1613381185359" duration="15589000" />
     </task>
     <task id="LOCAL-00020" summary="支持 disabled 属性">
       <created>1612879563562</created>
@@ -450,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613391642923</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="改造 Button Demo">
+      <created>1613402334997</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1613402334997</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="完成检查子组件类型功能" />
     <MESSAGE value="完成 Tabs CSS" />
     <MESSAGE value="完成切换导航栏" />
     <MESSAGE value="完成切换内容" />
@@ -495,7 +498,8 @@
     <MESSAGE value="封装 Demo 组件" />
     <MESSAGE value="修复主页面宽度超出 bug" />
     <MESSAGE value="增加 Doc 页面 TopNav 组件背景" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 Doc 页面 TopNav 组件背景" />
+    <MESSAGE value="改造 Button Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="改造 Button Demo" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />

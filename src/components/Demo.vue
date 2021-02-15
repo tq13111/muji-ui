@@ -58,7 +58,6 @@
 
     &-actions {
       padding: 8px 16px;
-      border-top: 1px dashed $border-color;
     }
 
     &-code {

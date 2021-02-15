@@ -2,7 +2,7 @@ type  DialogOptions = {
   closeOnClickOverlay: boolean,
   ok: () => boolean,
   cancel: () => boolean,
-  title: string,
+  title: string | HTMLDivElement,
   content: string,
   visible?: boolean,
 }
