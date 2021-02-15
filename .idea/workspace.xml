@@ -4,12 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="抽离用户需要拷贝的代码">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="完成展示源代码功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +96,7 @@
       <workItem from="1613375084691" duration="830000" />
       <workItem from="1613376121146" duration="528000" />
       <workItem from="1613376679360" duration="4356000" />
-      <workItem from="1613381185359" duration="947000" />
-    </task>
-    <task id="LOCAL-00013" summary="使用 v-model、prop、emit 完善 Switch">
-      <created>1612779339211</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1612779339211</updated>
+      <workItem from="1613381185359" duration="2727000" />
     </task>
     <task id="LOCAL-00014" summary="美化 css">
       <created>1612781549493</created>
@@ -444,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613381384120</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="完成展示源代码功能">
+      <created>1613382251463</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1613382251464</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="支持 closeOnClickOverlay、ok、cancel 属性" />
     <MESSAGE value="支持 title 属性&#10;使用插槽自定义内容" />
     <MESSAGE value="支持自定义标题、内容" />
     <MESSAGE value="使用 Teleport 组件" />
@@ -489,7 +485,8 @@
     <MESSAGE value="doc 根页面重定向到 intro" />
     <MESSAGE value="修复动态引入 md 文件 build 后 找不到文件 bug" />
     <MESSAGE value="抽离用户需要拷贝的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
+    <MESSAGE value="完成展示源代码功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成展示源代码功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
