@@ -1,3 +1,4 @@
+
 import {createApp, h} from 'vue';
 import Dialog from './Dialog.vue';
 
@@ -12,6 +13,7 @@ export const openDialog = (options: DialogOptions) => {
   const app = createApp({
     render() {
       return h(
+        // @ts-ignore
         Dialog,
         {
           visible: true,

@@ -7,7 +7,7 @@
     props: {
       checked: Boolean
     },
-    setup(props, content) {
+    setup(props: { checked: boolean }, content: { emit: Function }) {
       const toggle = () => {
         content.emit('update:checked', !props.checked);
       };

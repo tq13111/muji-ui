@@ -32,7 +32,7 @@
         default: false
       }
     },
-    setup(props) {
+    setup(props: { theme: string, size: string, level: string }) {
       const {theme, size, level} = props;
       const classes = computed(() => {
         return {

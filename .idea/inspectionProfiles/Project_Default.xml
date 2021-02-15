@@ -9,7 +9,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="23">
+          <list size="27">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -33,6 +33,10 @@
             <item index="20" class="java.lang.String" itemvalue="muji-tabs-nav-item" />
             <item index="21" class="java.lang.String" itemvalue="muji-tabs-nav-indicator" />
             <item index="22" class="java.lang.String" itemvalue="features" />
+            <item index="23" class="java.lang.String" itemvalue="demo" />
+            <item index="24" class="java.lang.String" itemvalue="demo-component" />
+            <item index="25" class="java.lang.String" itemvalue="demo-actions" />
+            <item index="26" class="java.lang.String" itemvalue="demo-code" />
           </list>
         </value>
       </option>

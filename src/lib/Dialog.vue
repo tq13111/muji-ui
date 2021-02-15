@@ -41,7 +41,7 @@
       },
     },
     components: {Button},
-    setup: function (props, context) {
+    setup: function (props: DialogOptions, context: { emit: Function }) {
       const close = () => {
         context.emit('update:visible', !props.visible);
       };

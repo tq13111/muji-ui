@@ -4,10 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="doc 根页面重定向到 intro">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="抽离用户需要拷贝的代码">
+      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1o8aeseA1ZqjKR00RHNwkvXGSoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,11 +44,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bill" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
     <property name="ts.external.directory.path" value="O:\T\Desktop\jirengu\muji-ui\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,42 +91,10 @@
       <workItem from="1613330247790" duration="136000" />
       <workItem from="1613330405210" duration="354000" />
       <workItem from="1613363110883" duration="683000" />
-      <workItem from="1613363814386" duration="3455000" />
-    </task>
-    <task id="LOCAL-00007" summary="切换路由时关闭侧边栏">
-      <created>1612707045409</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1612707045409</updated>
-    </task>
-    <task id="LOCAL-00008" summary="完成 Doc 页面 css">
-      <created>1612709286689</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1612709286689</updated>
-    </task>
-    <task id="LOCAL-00009" summary="完成 Doc 页面 css&#10;使用嵌套路由显示内容区域">
-      <created>1612710160331</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1612710160331</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Switch 组件html、css、切换动画">
-      <created>1612767050176</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1612767050176</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Switch 组件html、css、切换动画">
-      <created>1612767440957</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1612767440957</updated>
+      <workItem from="1613363814386" duration="6516000" />
+      <workItem from="1613375084691" duration="830000" />
+      <workItem from="1613376121146" duration="528000" />
+      <workItem from="1613376679360" duration="4356000" />
     </task>
     <task id="LOCAL-00012" summary="使用 v-model、prop、emit 完善 Switch">
       <created>1612779040478</created>
@@ -438,7 +404,42 @@
       <option name="project" value="LOCAL" />
       <updated>1613371108113</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613372244174</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1613372244174</updated>
+    </task>
+    <task id="LOCAL-00057" summary="修复动态引入 md 文件 build 后 找不到文件 bug">
+      <created>1613372275852</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1613372275852</updated>
+    </task>
+    <task id="LOCAL-00058" summary="抽离用户需要拷贝的代码">
+      <created>1613374751656</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1613374751657</updated>
+    </task>
+    <task id="LOCAL-00059" summary="抽离用户需要拷贝的代码">
+      <created>1613380899983</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1613380899984</updated>
+    </task>
+    <task id="LOCAL-00060" summary="抽离用户需要拷贝的代码">
+      <created>1613380971473</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1613380971473</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="支持 visible 属性" />
     <MESSAGE value="支持 closeOnClickOverlay、ok、cancel 属性" />
     <MESSAGE value="支持 title 属性&#10;使用插槽自定义内容" />
     <MESSAGE value="支持自定义标题、内容" />
@@ -481,9 +481,10 @@
     <MESSAGE value="点击 logo 跳转主页" />
     <MESSAGE value="使用插件引入 md 文件显示在页面中，使用 github-markdown-css 美化" />
     <MESSAGE value="封装 Markdown 组件、实现使用 md 函数创建 Markdown 组件" />
-    <MESSAGE value="修复动态引入 md 文件 build 后 找不到文件 bug" />
     <MESSAGE value="doc 根页面重定向到 intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc 根页面重定向到 intro" />
+    <MESSAGE value="修复动态引入 md 文件 build 后 找不到文件 bug" />
+    <MESSAGE value="抽离用户需要拷贝的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />

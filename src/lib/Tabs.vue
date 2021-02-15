@@ -2,8 +2,8 @@
   <div class="muji-tabs">
     <div ref="container" class="muji-tabs-nav">
       <div v-for="(item,index) in titles"
-           :ref="el => { if (item ===selected) { selectedDiv = el} }"
            :key="index"
+           :ref="el => { if (item ===selected) { selectedDiv = el} }"
            :class="{selected:item === selected}"
            class="muji-tabs-nav-item"
            @click="$emit('update:selected',item)">
@@ -19,6 +19,7 @@
   </div>
 </template>
 <script lang="ts">
+  // @ts-nocheck
   import Tab from './Tab.vue';
   import {computed, ref, onMounted, onUpdated} from 'vue';
 
@@ -31,6 +32,7 @@
     setup(props, context) {
       const defaults = context.slots.default();
       defaults.forEach((tag) => {
+
         if (tag.type !== Tab) {
           throw new Error('Tabs子标签必须是Tab');
         }

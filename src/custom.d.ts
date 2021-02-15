@@ -3,5 +3,6 @@ type  DialogOptions = {
   ok: () => boolean,
   cancel: () => boolean,
   title: string,
-  content: string
+  content: string,
+  visible?: boolean,
 }
