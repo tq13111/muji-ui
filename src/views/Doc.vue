@@ -107,6 +107,8 @@
     }
 
     > ol {
+      margin-bottom: 12px;
+
       > li {
         > a {
           display: block;
