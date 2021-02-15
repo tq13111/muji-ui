@@ -67,6 +67,7 @@
 
   .muji-tabs {
     background: white;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
 
     &-nav {
       display: flex;
@@ -75,8 +76,8 @@
       position: relative;
 
       &-item {
-        padding: 8px 0;
-        margin: 0 16px;
+        padding: 8px 16px;
+        margin: 0;
         cursor: pointer;
 
         &:first-child {
@@ -98,7 +99,7 @@
     }
 
     &-content {
-      padding: 8px 0;
+      padding: 8px 16px;
     }
   }
 </style>
