@@ -18,9 +18,7 @@
 </script>
 <style lang="scss" scoped>
   $border-color: #d9d9d9;
-  .cat {
-    margin: 16px 0 32px;
-  }
+
 
   .demo {
     border: 1px solid $border-color;

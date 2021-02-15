@@ -1,5 +1,5 @@
 <demo>
-常规用法
+常规
 </demo>
 <template>
   <Switch v-model:checked="bool"/>
