@@ -4,10 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="改造 Button Demo">
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="优化 router">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+    </list>
+    <list id="38977265-d0f5-4024-9c5c-838d3c238d75" name="优化 router" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/DocDefault.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,20 +108,6 @@
       <workItem from="1613376679360" duration="4356000" />
       <workItem from="1613381185359" duration="15589000" />
       <workItem from="1613404258680" duration="421000" />
-    </task>
-    <task id="LOCAL-00020" summary="支持 disabled 属性">
-      <created>1612879563562</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1612879563562</updated>
-    </task>
-    <task id="LOCAL-00021" summary="支持 disabled 属性">
-      <created>1612879570557</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1612879570557</updated>
     </task>
     <task id="LOCAL-00022" summary="增加复合属性标签">
       <created>1612880561081</created>
@@ -447,7 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613402334997</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="改造 Tabs Demo">
+      <created>1613406034502</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1613406034502</updated>
+    </task>
+    <task id="LOCAL-00070" summary="优化 router">
+      <created>1613406055552</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1613406055552</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,8 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="完成 Tabs CSS" />
-    <MESSAGE value="完成切换导航栏" />
     <MESSAGE value="完成切换内容" />
     <MESSAGE value="动态设置下划线宽度" />
     <MESSAGE value="实现下划线滑动动画" />
@@ -492,7 +495,9 @@
     <MESSAGE value="修复主页面宽度超出 bug" />
     <MESSAGE value="增加 Doc 页面 TopNav 组件背景" />
     <MESSAGE value="改造 Button Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="改造 Button Demo" />
+    <MESSAGE value="改造 Tabs Demo" />
+    <MESSAGE value="优化 router" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化 router" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
