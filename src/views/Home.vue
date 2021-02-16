@@ -61,6 +61,7 @@
     padding: 0 16px;
     @media (min-width: 800px) {
       width: 800px;
+      padding: 0;
       > ul {
         > li {
           width: 50%;
@@ -70,6 +71,8 @@
 
     @media (min-width: 1200px) {
       width: 1200px;
+      padding: 0;
+
       > ul {
         > li {
           width: 33.3333%;

@@ -4,9 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="修改 DialogOptions 类型">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="配置 vite.config">
+      <change beforePath="$PROJECT_DIR$/.idea/muji-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/muji-ui.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <list id="38977265-d0f5-4024-9c5c-838d3c238d75" name="优化 router" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,13 +104,6 @@
       <workItem from="1613376679360" duration="4356000" />
       <workItem from="1613381185359" duration="15589000" />
       <workItem from="1613404258680" duration="421000" />
-    </task>
-    <task id="LOCAL-00025" summary="创建 Dialog 组件">
-      <created>1612936686172</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1612936686172</updated>
     </task>
     <task id="LOCAL-00026" summary="完成 Dialog 组件 CSS">
       <created>1612939374357</created>
@@ -447,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613407541253</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="配置 vite.config">
+      <created>1613413180141</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1613413180141</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="动态设置下划线宽度" />
     <MESSAGE value="实现下划线滑动动画" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="美化官网 背景、文字、链接颜色" />
@@ -519,7 +519,8 @@
     <MESSAGE value="改造 Tabs Demo" />
     <MESSAGE value="优化 router" />
     <MESSAGE value="修改 DialogOptions 类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 DialogOptions 类型" />
+    <MESSAGE value="配置 vite.config" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置 vite.config" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
