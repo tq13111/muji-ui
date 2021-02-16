@@ -1,18 +1,23 @@
 <template>
-  <button :class="{'muji-checked':checked}" class="muji-switch" @click="toggle"><span></span></button>
+  <button
+    :class="{ 'muji-checked': checked }"
+    class="muji-switch"
+    @click="toggle"
+  >
+    <span></span>
+  </button>
 </template>
 <script lang="ts">
-
   export default {
     props: {
-      checked: Boolean
+      checked: Boolean,
     },
     setup(props: { checked: boolean }, content: { emit: Function }) {
       const toggle = () => {
         content.emit('update:checked', !props.checked);
       };
       return {toggle};
-    }
+    },
   };
 </script>
 <style lang="scss">
@@ -20,7 +25,7 @@
   $h2: $h - 4px;
   .muji-switch {
     height: $h;
-    width: $h *2;
+    width: $h * 2;
     border: none;
     background: #bfbfbf;
     border-radius: $h/2;
@@ -41,19 +46,23 @@
       background: #1890ff;
 
       > span {
-        left: calc(100% - #{$h2} - 2px)
+        left: calc(100% - #{$h2} - 2px);
       }
+    }
+
+    &:focus {
+      outline: none;
     }
 
     &:active {
       > span {
-        width: $h2 +4px;
+        width: $h2 + 4px;
       }
     }
 
     &.muji-checked:active {
       > span {
-        width: $h2 +4px;
+        width: $h2 + 4px;
         margin-left: -4px;
       }
     }
