@@ -21,7 +21,7 @@
 <script lang="ts">
   // @ts-nocheck
   import Tab from './Tab.vue';
-  import {computed, ref, onMounted, onUpdated} from 'vue';
+  import {computed, ref, onMounted, watchEffect} from 'vue';
 
   export default {
     props: {
@@ -47,14 +47,14 @@
       const selectedDiv = ref<HTMLDivElement>(null);
       const indicator = ref<HTMLDivElement>(null);
       const container = ref<HTMLDivElement>(null);
-      const x = () => {
-        const {width, left} = selectedDiv.value.getBoundingClientRect();
-        indicator.value.style.width = width + 'px';
-        const {left: containerLeft} = container.value.getBoundingClientRect();
-        indicator.value.style.left = left - containerLeft + 'px';
-      };
-      onMounted(x);
-      onUpdated(x);
+      onMounted(() => {
+        watchEffect(() => {
+          const {width, left} = selectedDiv.value.getBoundingClientRect();
+          indicator.value.style.width = width + 'px';
+          const {left: containerLeft} = container.value.getBoundingClientRect();
+          indicator.value.style.left = left - containerLeft + 'px';
+        }, {flush: 'post'});
+      });
       return {defaults, titles, current, selectedDiv, indicator, container};
     }
   };
