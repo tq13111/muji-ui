@@ -4,8 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="修复 Switch outline样式 bug">
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="Tabs 组件中使用 watchEffect">
+      <change beforePath="$PROJECT_DIR$/.idea/muji-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/muji-ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/rebase___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/rebase___.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +23,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="gh-pages" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1o8aeseA1ZqjKR00RHNwkvXGSoa" />
@@ -48,7 +63,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="N:\WebStorm2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -101,14 +116,8 @@
       <workItem from="1613404258680" duration="421000" />
       <workItem from="1613468103425" duration="4209000" />
       <workItem from="1613474848391" duration="3844000" />
-      <workItem from="1613481702080" duration="299000" />
-    </task>
-    <task id="LOCAL-00032" summary="完成一句代码打开 Dialog 功能">
-      <created>1612963274311</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1612963274311</updated>
+      <workItem from="1613481702080" duration="2992000" />
+      <workItem from="1613565124067" duration="24000" />
     </task>
     <task id="LOCAL-00033" summary="完成一句代码打开 Dialog 功能">
       <created>1612963279487</created>
@@ -446,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613481881176</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Tabs 组件中使用 watchEffect">
+      <created>1613482320977</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1613482320977</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +504,33 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="gh-pages" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/gh-pages" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
                 </option>
               </RecentGroup>
             </list>
@@ -500,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="支持 toggleAsideButtonVisible 属性" />
     <MESSAGE value="更新侧边栏按钮 icon" />
     <MESSAGE value="点击 logo 跳转主页" />
     <MESSAGE value="使用插件引入 md 文件显示在页面中，使用 github-markdown-css 美化" />
@@ -525,7 +566,8 @@
     <MESSAGE value="Tabs 组件增加隐藏代码 button" />
     <MESSAGE value="创建 index.ts、rollup.config.js" />
     <MESSAGE value="修复 Switch outline样式 bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复 Switch outline样式 bug" />
+    <MESSAGE value="Tabs 组件中使用 watchEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs 组件中使用 watchEffect" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
