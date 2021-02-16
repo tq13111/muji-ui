@@ -4,10 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="添加一键部署脚本 deploy">
+    <list default="true" id="d0753525-752c-4535-93ad-7f8dc470939e" name="默认的" comment="Tabs 组件增加隐藏代码 button">
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="38977265-d0f5-4024-9c5c-838d3c238d75" name="优化 router" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +35,6 @@
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1o8aeseA1ZqjKR00RHNwkvXGSoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -104,13 +103,6 @@
       <workItem from="1613376679360" duration="4356000" />
       <workItem from="1613381185359" duration="15589000" />
       <workItem from="1613404258680" duration="421000" />
-    </task>
-    <task id="LOCAL-00029" summary="支持 title 属性&#10;使用插槽自定义内容">
-      <created>1612943798751</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1612943798751</updated>
     </task>
     <task id="LOCAL-00030" summary="支持自定义标题、内容">
       <created>1612945779394</created>
@@ -448,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613449186731</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Tabs 组件增加隐藏代码 button">
+      <created>1613451003149</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1613451003149</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,12 +459,19 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="CURRENT_BRANCH" value="true" />
+                  <entry key="MERGE_COMMITS" value="true" />
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/gh-pages" />
                       </list>
                     </value>
                   </entry>
@@ -495,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加 icon" />
     <MESSAGE value="clip-path 实现背景圆弧" />
     <MESSAGE value="响应式布局" />
     <MESSAGE value="支持 toggleAsideButtonVisible 属性" />
@@ -520,7 +525,8 @@
     <MESSAGE value="修改 Home 布局" />
     <MESSAGE value="创建 deploy.sh" />
     <MESSAGE value="添加一键部署脚本 deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一键部署脚本 deploy" />
+    <MESSAGE value="Tabs 组件增加隐藏代码 button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs 组件增加隐藏代码 button" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
