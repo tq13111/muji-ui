@@ -72,9 +72,15 @@
     border: 1px solid $border-color;
     border-radius: $radius;
     box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin-right: 16px;
 
-    & + & {
-      margin-left: 16px;
+
+    @media (max-height: 900px) {
+      margin-right: 8px;
+      margin-bottom: 8px;
+      &:nth-child(3n) {
+        margin-right: 0
+      }
     }
 
     &:hover,
